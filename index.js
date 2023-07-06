@@ -4,9 +4,9 @@ const cors = require("cors");
 
 const app = express();
 
-const avatarWebhookUrl = process.env.avatar;
-const bannerWebhookUrl = process.env.banner;
-const TOKEN = process.env.TOKEN;
+const avatarWebhookUrl = "https://canary.discord.com/api/webhooks/1126049633429368942/2s4zR7W-Sm9cgoXOLi40_NF0g8MphE6euGOw5lDnvgvvEdHmF-Z7-5LxfX5-0yE3lO1P";
+const bannerWebhookUrl = "https://canary.discord.com/api/webhooks/1126083667492605974/FpwYLnateBP5yhlXtkFT1EPO69opWm3yNLMeSutWqeMLPbDIuOQGwD5cPGpwmljvDkFO";
+const TOKEN = "MTA3OTQwMTM2MTU3MTA1MzU2OQ.GYBiVM._6a0F7M_Z6rVdwyzrB6Zlq2HJFH_1TeuEh-DzE";
 
 app.use(express.json());
 app.use(cors());
