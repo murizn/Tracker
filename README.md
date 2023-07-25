@@ -9,10 +9,13 @@ Este repositório contém uma incrível API construída com o framework Express 
 3. Abra um terminal ou prompt de comando e navegue até o diretório onde o código está localizado.
 4. Instale as dependências necessárias executando o seguinte comando: 💻
 5. Configure as URLs dos webhooks e o token de uma conta do Discord válida no código. Substitua as seguintes variáveis de acordo:
-6. ```javascript
+6. 
+7. ```javascript
 const avatarWebhookUrl = "url_para_o_webhook_de_avatares";
 const bannerWebhookUrl = "url_para_o_webhook_de_banners";
 const TOKEN = "token_da_sua_conta_do_discord";
 
+
+oi
 
 
